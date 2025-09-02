@@ -20,16 +20,7 @@
         <div class="flex justify-between items-center">
           <div class="text-lg ux-color-gray">
             for <span class="ux-color-gold">{{ envGameName }}</span>
-            <span class="ml-2 ux-color-green">Patch {{ envGameVersion }}</span>
-
-            <span class="text-xs">
-              <a
-                class="ml-2 underline hover:underline ux-color-link-blue"
-                target="blank"
-                :href="envPatchNotesUrl"
-                >Update Notes</a
-              >
-            </span>
+            <span class="ml-2 ux-color-green">Diablo 2 Exile</span>
           </div>
 
           <div class="flex items-center text-[#514f4a]">
@@ -46,10 +37,9 @@
               /><span class="ml-1">{{ "Help" }}</span>
             </a>
 
-            <a :href="`${envGithubRepoUrl}/discussions`" class="rw-Header-link">
-              <icon-chat class="ux-icon ux-icon--fw ux-icon--lg mr-1" />
-              <span>{{ "Feedback" }}</span>
-            </a>
+            <a href="https://discord.gg/R8HvJWYfcs" target="_blank" rel="noopener" class="rw-Header-link ml-6">
+  Exile Discord
+</a>
           </div>
         </div>
       </div>
